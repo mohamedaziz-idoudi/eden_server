@@ -164,5 +164,5 @@ app.get("/api/getPost/:id",(req,res) => {
 
 
 app.listen(process.env.PORT ||3001, () => {
-    console.log("Running on server");
+    console.log("Running on server!");
 });
